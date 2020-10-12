@@ -1,6 +1,7 @@
 import pyttsx3
 import PyPDF2
-book = open('Hooked_In_Real_Life_ebook.pdf', 'rb')
+book = open('Stories.pdf', 'rb')
+#book = open('Hooked_In_Real_Life_ebook.pdf', 'rb')
 pdf_reader = PyPDF2.PdfFileReader(book)
 num_pages = pdf_reader.getNumPages()
 print("Number of pages in document : ", num_pages)
